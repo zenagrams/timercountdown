@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap'); 
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./rock.jpg");
+    background-size:cover;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    min-height:100vh;
+    font-family: 'Annie Use Your Telescope', cursive;
+    margin:0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top:0rem;
+}
+
+h2,h3{
+    line-height:-2;
+    margin:0rem;
+}
+
+.countdown-container{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.days-digit, .hours-digit,.minutes-digit, .seconds-digit{
+    font-size: 5rem;
+    line-height:1;
+    margin:0rem;
+}
+
+.countdown-container span{
+    font-weight:bold;
+    font-size:1.5rem;
+    text-align:center;
+}
